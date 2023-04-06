@@ -15,7 +15,7 @@
 		A72A918229639AD900972AB9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A918129639AD900972AB9 /* PageView.swift */; };
 		A72A918429639ED300972AB9 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A918329639ED300972AB9 /* Sizes.swift */; };
 		A72A91862963A12B00972AB9 /* VerticalPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91852963A12B00972AB9 /* VerticalPageIndicator.swift */; };
-		A77380E429610608008965BB /* ZaraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E329610608008965BB /* ZaraAppApp.swift */; };
+		A77380E429610608008965BB /* Elegance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E329610608008965BB /* Elegance.swift */; };
 		A77380E629610608008965BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E529610608008965BB /* ContentView.swift */; };
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
 		A77380EB2961060A008965BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380EA2961060A008965BB /* Preview Assets.xcassets */; };
@@ -58,8 +58,8 @@
 		A72A918129639AD900972AB9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		A72A918329639ED300972AB9 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 		A72A91852963A12B00972AB9 /* VerticalPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalPageIndicator.swift; sourceTree = "<group>"; };
-		A77380E029610608008965BB /* ZaraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A77380E329610608008965BB /* ZaraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaraAppApp.swift; sourceTree = "<group>"; };
+		A77380E029610608008965BB /* Elegance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elegance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77380E329610608008965BB /* Elegance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elegance.swift; sourceTree = "<group>"; };
 		A77380E529610608008965BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77380E72961060A008965BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77380EA2961060A008965BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		A77380D729610608008965BB = {
 			isa = PBXGroup;
 			children = (
-				A77380E229610608008965BB /* ZaraApp */,
+				A77380E229610608008965BB /* Elegance */,
 				A77380E129610608008965BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,12 +115,12 @@
 		A77380E129610608008965BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A77380E029610608008965BB /* ZaraApp.app */,
+				A77380E029610608008965BB /* Elegance.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A77380E229610608008965BB /* ZaraApp */ = {
+		A77380E229610608008965BB /* Elegance */ = {
 			isa = PBXGroup;
 			children = (
 				A7F65BE72962D2590042E570 /* Models */,
@@ -130,12 +130,12 @@
 				A77380F329610835008965BB /* Extensions */,
 				A77380F22961082C008965BB /* Utils */,
 				A77380F129610815008965BB /* Views */,
-				A77380E329610608008965BB /* ZaraAppApp.swift */,
+				A77380E329610608008965BB /* Elegance.swift */,
 				A77380E529610608008965BB /* ContentView.swift */,
 				A77380E72961060A008965BB /* Assets.xcassets */,
 				A77380E92961060A008965BB /* Preview Content */,
 			);
-			path = ZaraApp;
+			path = Elegance;
 			sourceTree = "<group>";
 		};
 		A77380E92961060A008965BB /* Preview Content */ = {
@@ -241,9 +241,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A77380DF29610608008965BB /* ZaraApp */ = {
+		A77380DF29610608008965BB /* Elegance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A77380EE2961060A008965BB /* Build configuration list for PBXNativeTarget "ZaraApp" */;
+			buildConfigurationList = A77380EE2961060A008965BB /* Build configuration list for PBXNativeTarget "Elegance" */;
 			buildPhases = (
 				A77380DC29610608008965BB /* Sources */,
 				A77380DD29610608008965BB /* Frameworks */,
@@ -253,12 +253,12 @@
 			);
 			dependencies = (
 			);
-			name = ZaraApp;
+			name = Elegance;
 			packageProductDependencies = (
 				A7EDC2DB2964AC2E000737EE /* Kingfisher */,
 			);
-			productName = ZaraApp;
-			productReference = A77380E029610608008965BB /* ZaraApp.app */;
+			productName = Elegance;
+			productReference = A77380E029610608008965BB /* Elegance.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A77380DB29610608008965BB /* Build configuration list for PBXProject "ZaraApp" */;
+			buildConfigurationList = A77380DB29610608008965BB /* Build configuration list for PBXProject "Elegance" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -292,7 +292,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A77380DF29610608008965BB /* ZaraApp */,
+				A77380DF29610608008965BB /* Elegance */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 				A7F65BEB2962D3B60042E570 /* Category.swift in Sources */,
 				A7EDC2DE2964ACE7000737EE /* ProductItemView.swift in Sources */,
 				A72A917C296301A600972AB9 /* Store.swift in Sources */,
-				A77380E429610608008965BB /* ZaraAppApp.swift in Sources */,
+				A77380E429610608008965BB /* Elegance.swift in Sources */,
 				A79F1DE72966DC260000A0E6 /* ProductImageView.swift in Sources */,
 				A7ED8B1429644C850037738E /* TabIndicator.swift in Sources */,
 				A7C7BC1B29623F50004D3446 /* LoginScreen.swift in Sources */,
@@ -478,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ZaraApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Elegance/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Q6S759NWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Temi.ZaraApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Temi.Elegance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,7 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ZaraApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Elegance/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Q6S759NWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -521,7 +521,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Temi.ZaraApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Temi.Elegance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -532,7 +532,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A77380DB29610608008965BB /* Build configuration list for PBXProject "ZaraApp" */ = {
+		A77380DB29610608008965BB /* Build configuration list for PBXProject "Elegance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A77380EC2961060A008965BB /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A77380EE2961060A008965BB /* Build configuration list for PBXNativeTarget "ZaraApp" */ = {
+		A77380EE2961060A008965BB /* Build configuration list for PBXNativeTarget "Elegance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A77380EF2961060A008965BB /* Debug */,
